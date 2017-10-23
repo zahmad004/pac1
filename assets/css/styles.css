@@ -1,5 +1,6 @@
 body{}
-body.home .usa-nav-primary{display: none;}
+body.home .usa-nav-primary,
+body.background .usa-nav-primary{display: none;}
 
 
 .usa-section-dark h1, 
