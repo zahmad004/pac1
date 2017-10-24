@@ -1,7 +1,11 @@
-body{ }
-body .usa-nav-primary{display: none;}
+body{font-size: 1.5rem; }
+body.home .usa-nav-primary{display: none;}
 h1, h2, h3, h4{font-weight: 400 !important;}
+h2{
+  padding-top:50px;
+  display: block;
 
+}
 .usa-logo a{
   font-size:.8em;
   font-weight: 500;
@@ -23,6 +27,7 @@ h1, h2, h3, h4{font-weight: 400 !important;}
   text-align: right;
   }
 p{max-width: 700px;}
+.icon-img{margin: 0 0 20px 0;}
 .usa-media_block-body p{padding: 0 13px;}
 .usa-media_block-body a{text-decoration: none; color:#3B6EBA;}
 .usa-media_block-body a:hover{color:#000;}
@@ -30,18 +35,24 @@ p{max-width: 700px;}
 .usa-footer .usa-section-dark a {
   color: #fff !important;
   }
-  .usa-footer-primary-link{font-size:.9em; font-weight: 500 !important;}
+  .usa-footer-primary-link{
+      font-size:.9em; 
+      font-weight: 500 !important;
+      padding-left: 5px; 
+    }
+  .usa-footer-secondary_section{padding-top:0px;}
 
 .usa-hero{
   background-image: none;
   background-color: #205493;
+  background: linear-gradient(to left, #0071BA 50%, #205493 50%);
   }
 
 .usa-hero-callout{
   max-width: 69rem;
   background: none !important;
   color: #fafafa !important;
-  padding: 2.5em 0;
+  padding: 1em 0;
 }
 .usa-hero-callout h3{
     line-height: 1.69em;
@@ -49,17 +60,36 @@ p{max-width: 700px;}
 }
 
 .ul-clean{
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
+padding: 20px 0;
+margin: 0px; 
+list-style: none;
+  
+}
+.ul-highlights{
+  list-style-image: url('../../assets/img/correct9.png');
+  max-width: 700px;
+}
+.ul-highlights li{
+  margin-bottom:30px;
+  margin-left: 30px;
+  padding-left: 10px;
 }
 
+.usa-section-light{padding-bottom:5rem}
 
 /* navigation */
+.usa-nav-secondary{top: -6.3rem;}
+.usa-nav-secondary-links li{padding:0px; margin:0px;}
+.usa-nav-secondary-links li a{padding:15px 15px 25px; }
+.usa-nav-secondary-links li a:hover,
+.usa-nav-secondary-links li a.active {background-color: #003366; color:#fff; text-decoration: none;}
 .usa-nav-secondary-links li:not(:last-child)::after {
     content: "";
-    padding-left: 4rem;
+    padding-left: .5rem;
 }
+
+
+.usa-nav{background-color: #f0f0f0;}
 
   /* Background Images */
   body.home .usa-hero{
