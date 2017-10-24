@@ -1,7 +1,12 @@
-body{}
+body{ }
 body.home .usa-nav-primary,
 body.background .usa-nav-primary{display: none;}
+h1, h2, h3, h4{font-weight: 400 !important;}
 
+.usa-logo a{
+  font-size:.8em;
+  font-weight: 500;
+}
 
 .usa-section-dark h1, 
 .usa-section-dark h2, 
@@ -18,22 +23,48 @@ body.background .usa-nav-primary{display: none;}
 .right{
   text-align: right;
   }
+p{max-width: 700px;}
+.usa-media_block-body p{padding: 0 13px;}
 
 .usa-footer .usa-section-dark h4,
 .usa-footer .usa-section-dark a {
   color: #fff !important;
   }
-.usa-footer-return-to-top {
-  color: #205493;
-  text-decoration: none;
-}
+
 .usa-hero{
   background-image: none;
   background-color: #205493;
   }
 
 .usa-hero-callout{
-  max-width: 66rem;
+  max-width: 69rem;
   background: none !important;
   color: #fafafa !important;
+  padding: 2.5em 0;
+}
+.usa-hero-callout h3{
+    line-height: 1.69em;
+    font-weight: 300 !important;
+}
+
+.ul-clean{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+
+/* navigation */
+.usa-nav-secondary-links li:not(:last-child)::after {
+    content: "";
+    padding-left: 4rem;
+}
+
+  /* Background Images */
+  body.home .usa-hero{
+    background-image: url('../../assets/img/bg/HeroBanner.png');
+    background-position: center;
+    background-size: cover;
+
   }
+
