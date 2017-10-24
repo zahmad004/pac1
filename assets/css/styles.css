@@ -1,6 +1,5 @@
 body{ }
-body.home .usa-nav-primary,
-body.background .usa-nav-primary{display: none;}
+body .usa-nav-primary{display: none;}
 h1, h2, h3, h4{font-weight: 400 !important;}
 
 .usa-logo a{
