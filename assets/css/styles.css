@@ -29,6 +29,7 @@ p{max-width: 700px;}
 .usa-footer .usa-section-dark a {
   color: #fff !important;
   }
+  .usa-footer-primary-link{font-size:.9em; font-weight: 500 !important;}
 
 .usa-hero{
   background-image: none;
