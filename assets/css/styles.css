@@ -24,7 +24,8 @@ h1, h2, h3, h4{font-weight: 400 !important;}
   }
 p{max-width: 700px;}
 .usa-media_block-body p{padding: 0 13px;}
-
+.usa-media_block-body a{text-decoration: none; color:#3B6EBA;}
+.usa-media_block-body a:hover{color:#000;}
 .usa-footer .usa-section-dark h4,
 .usa-footer .usa-section-dark a {
   color: #fff !important;
