@@ -91,6 +91,13 @@ list-style: none;
 
 .usa-nav{background-color: #f0f0f0;}
 
+
+/* table styling */
+table{width: 100%;}
+table tr, table td, table th{border-color:#ccc; font-size: 14px; padding:10px 10px;}
+table th{background-color:#f0f0f0;}
+
+
   /* Background Images */
   body.home .usa-hero{
     background-image: url('../../assets/img/bg/HeroBanner.png');
