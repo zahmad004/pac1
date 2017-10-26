@@ -75,7 +75,7 @@ list-style: none;
   padding-left: 10px;
 }
 
-.usa-section-light{padding-bottom:5rem}
+.usa-section-light{padding-bottom:5rem; background-color: #EDF1F6;}
 
 /* navigation */
 .usa-nav-secondary{top: -6.3rem;}
@@ -111,6 +111,9 @@ ul.dbl-list {
 table{width: 100%;}
 table tr, table td, table th{border-color:#ccc; font-size: 14px; padding:10px 10px; vertical-align: top;}
 table th{background-color:#f0f0f0;}
+table ul{margin:0 0 0 15px; padding:0px;}
+
+
 
 
 #main-content img.chart{border:solid 5px #f0f0f0;}
