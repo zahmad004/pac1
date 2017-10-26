@@ -98,6 +98,8 @@ table tr, table td, table th{border-color:#ccc; font-size: 14px; padding:10px 10
 table th{background-color:#f0f0f0;}
 
 
+.usa-grid img{border:solid 5px #f0f0f0;}
+
   /* Background Images */
   body.home .usa-hero{
     background-image: url('../../assets/img/bg/HeroBanner.png');
