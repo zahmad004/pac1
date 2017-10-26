@@ -90,7 +90,22 @@ list-style: none;
 
 
 .usa-nav{background-color: #f0f0f0;}
+ul.dbl-list {
+   columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
 
+}
+.fa-ul li{margin:0px; padding-top: 10px; padding-bottom: 10px; }
+.fa-ul li a{position: relative; padding-left:25px;  text-decoration: none;}
+.fa-ul.pdf li a:after{
+ position: absolute;
+  font-family: 'FontAwesome';
+  top: 0;
+  left: 0px;
+  right: 10px;  
+  content: "\f1c1";
+}
 
 /* table styling */
 table{width: 100%;}
